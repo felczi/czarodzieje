@@ -1,8 +1,4 @@
 .akapit {
     margin-bottom: 0;
-    text-indent: 5em;
-  }
-.akapit + .akapit {
-    text-indent: 5em;
-    margin-top: 0
+    text-indent: 3em;
   }
