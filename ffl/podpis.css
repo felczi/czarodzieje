@@ -48,7 +48,7 @@ div.signature_picture_desc:hover
     transition: 1s;
     filter: none;
     background-image: none;
-    background-color: #2e2e2e;
+    background-color: #212121;
     opacity: 1;
 }
 
