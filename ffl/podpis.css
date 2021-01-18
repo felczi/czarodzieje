@@ -1,0 +1,80 @@
+.signature_picture
+{
+	height: 65px;
+    width: 65px;
+    padding: 0px;
+    outline-offset: 2px;
+    outline:solid 1px #acacad55;
+    transition: 1s;
+    filter: grayscale(100) contrast(1.2);
+    display: inline-block;
+	background-image: url("https://i.imgur.com/F3D63V8.png");
+    background-size: 100%;
+}
+
+div.signature_picture:nth-of-type(2)
+{
+	background-image: url("https://i.imgur.com/mabOeKx.gif");
+    margin-left: 10px;
+    filter: grayscale(100) contrast(1.1);
+    transition: 1s;
+
+}
+
+div.signature_picture:nth-of-type(3)
+{
+	background-image: url("https://i.imgur.com/F78mKyk.gif");
+    filter: grayscale(100) contrast(1.2);
+    margin-left: 10px;
+    transition: 1s;
+
+}
+
+.signature_picture_desc
+{
+	width: 65px;
+    height: 65px;
+    opacity: 0;
+    color: #f9f9f9;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Noto Serif;
+    font-size: 10px;
+    transition: 1s;
+}
+
+div.signature_picture_desc:hover
+{
+    transition: 1s;
+    filter: none;
+    background-image: none;
+    background-color: #2e2e2e;
+    opacity: 1;
+}
+
+.signature_desc
+{
+	width: 219px;
+    color: #acacad;
+    font-family: Noto Serif;
+    font-size: 10px;
+    margin-top: 6px;
+    text-align: justify;
+    line-height: 9px;
+}
+
+.signature_desc_fancyfont
+{
+	font-family: Homemade Apple;
+    font-size: 11px;
+    color: #8F6D29;
+    position: relative;
+    text-align: justify;
+}
+
+.horizontal_line
+{
+	width: 80px;
+    border-top: solid 1px;
+    margin-top: 5px;
+}
