@@ -98,3 +98,7 @@ body
     font-size: 11px;
     line-height: 16px;
 }
+
+.journal_text_overflow a, .journal_text a {
+    color: #a5b7aa;
+}
