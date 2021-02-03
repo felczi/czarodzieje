@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Meddon&family=Mrs+Saint+Delafield&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&family=Noto+Serif+JP:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+body
+{
+    background-color: #27272a;
+}
+
+.journal_main
+{
+    width: 430px;
+    min-height: 525px;
+    max-height: 840px;
+    background-color: #1f1f1f;
+    background-image: url('https://i.imgur.com/xyXlxYt.png'); 
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.journal_title
+{
+    position: relative;
+    color: white;
+    text-align: center;
+    width: 430px;
+    margin-bottom: -20px;
+    font-size: 50px;
+    font-family: Tangerine;
+    text-shadow: #000 0 0 3px, 0 0 5px #000;
+}
+
+.journal_background
+{
+    width: 430px;
+    height: 200px;
+    background-image: url(https://64.media.tumblr.com/034c331431ea0c32a0c2766845a8441b/tumblr_inline_pfnjyfXBzz1rifr4k_1280.gif);
+    background-size: 100%;
+    border-radius: 3px 3px 0px 0px;
+    margin-bottom: 15px;
+}
+
+.journal
+{
+    width: 430px;
+}
+
+.journal_text
+{
+    overflow-y: auto;
+    width: 400px;
+    height: 110px;
+    padding: 5px 5px 5px 5px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    background-color: #27272a;
+    font-family: 'Noto Sans JP';
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.journal_text_title
+{
+    position: relative;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: -15px;
+    font-size: 30px;
+    font-family: Tangerine;
+    text-shadow: #000 0 0 3px, 0 0 5px #000;
+    /*position: relative;
+    color: white;
+    text-align: center;
+    width: 160px;
+    background-color: #8F6D29;
+    letter-spacing: 1px;
+    padding: 3px;
+    text-transform: none;
+    margin-top: 20px;
+    font-family: 'Open Sans Condensed';
+    font-size: 15px;
+    outline-offset: 3px;
+    box-shadow: 0px 0px 0px 0px #cccccc25, 5px 5px 0px 0px #cccccc25;*/  
+}
