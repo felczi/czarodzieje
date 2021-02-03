@@ -84,3 +84,20 @@ body
     outline-offset: 3px;
     box-shadow: 0px 0px 0px 0px #cccccc25, 5px 5px 0px 0px #cccccc25;*/  
 }
+
+.journal_text_overflow
+{
+    overflow-y: auto;
+    width: 400px;
+    height: 140px;
+    padding: 5px 5px 5px 5px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    background-color: #27272a;
+    font-family: 'Noto Sans JP';
+    font-size: 11px;
+    line-height: 16px;
+}
