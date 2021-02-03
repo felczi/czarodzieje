@@ -48,9 +48,8 @@ body
 
 .journal_text
 {
-    overflow-y: auto;
     width: 400px;
-    height: 140px;
+    min-height: 140px;
     padding: 5px 5px 5px 5px;
     text-align: justify;
     margin: auto;
