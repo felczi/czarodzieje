@@ -36,6 +36,7 @@ div.signature_picture:nth-of-type(3)
     font-family: Noto Serif;
     font-size: 10px;
     transition: 1s;
+	line-height: 10px;
 }
 
 div.signature_picture_desc:hover
@@ -49,7 +50,7 @@ div.signature_picture_desc:hover
 
 .signature_desc
 {
-	width: 219px;
+	width: 249px;
     color: #acacad;
     font-family: Noto Serif;
     font-size: 10px;
