@@ -7,6 +7,7 @@
     display: inline-block;
     background-image: url("https://i.imgur.com/wkwRH7p.gif");
     background-size: 100%;
+	filter: none;
 }
 
 div.signature_picture:nth-of-type(2)
@@ -22,7 +23,11 @@ div.signature_picture:nth-of-type(3)
     background-image: url("https://i.imgur.com/9JnTy1h.gif");
     margin-left: 5px;
     transition: 1s;
+}
 
+.signature_picture:hover
+{
+	filter: blur(1px);
 }
 
 .signature_picture_desc
@@ -43,7 +48,6 @@ div.signature_picture_desc:hover
     transition: 1s;
     filter: none;
     background-image: none;
-    background-color: #212121;
     opacity: 1;
 }
 
