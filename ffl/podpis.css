@@ -1,39 +1,36 @@
 .signature_picture
 {
-	height: 65px;
-    width: 65px;
+	height: 80px;
+    width: 80px;
     padding: 0px;
     outline-offset: 2px;
     outline:solid 1px #acacad55;
     transition: 1s;
-    filter: grayscale(100) contrast(1.1);
     display: inline-block;
-	background-image: url("https://i.imgur.com/mabOeKx.gif");
+    background-image: url("https://i.imgur.com/wkwRH7p.gif");
     background-size: 100%;
 }
 
 div.signature_picture:nth-of-type(2)
 {
-	background-image: url("https://i.imgur.com/F3D63V8.png");
-    margin-left: 10px;
-    filter: grayscale(100) contrast(1.21) brightness(1.2);
+	background-image: url("https://i.imgur.com/olKzPBR.gif");
+    margin-left: 5px;
     transition: 1s;
 
 }
 
 div.signature_picture:nth-of-type(3)
 {
-	background-image: url("https://i.imgur.com/F78mKyk.gif");
-    filter: grayscale(100) contrast(1.2);
-    margin-left: 10px;
+    background-image: url("https://i.imgur.com/9JnTy1h.gif");
+    margin-left: 5px;
     transition: 1s;
 
 }
 
 .signature_picture_desc
 {
-	width: 65px;
-    height: 65px;
+	width: 80px;
+    height: 80px;
     opacity: 0;
     color: #f9f9f9;
     display: table-cell;
@@ -48,7 +45,7 @@ div.signature_picture_desc:hover
     transition: 1s;
     filter: none;
     background-image: none;
-    background-color: #292929;
+    background-color: #212121;
     opacity: 1;
 }
 
